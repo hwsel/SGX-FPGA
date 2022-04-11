@@ -1,0 +1,90 @@
+Enclave_t.o: Enclave_t.c Enclave_t.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdint.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/stdint.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/cdefs.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/_types.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/wchar.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stddef.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_edger8r.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_defs.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_error.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_eid.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_trts.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_utils.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_attributes.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_key.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_report.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tkey_exchange.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_key_exchange.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_quote.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_ecp_types.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tcrypto.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdlib.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tae_service.h \
+ ../config.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_lfence.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/errno.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/mbusafecrt.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/string.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdarg.h
+
+Enclave_t.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdint.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/stdint.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/cdefs.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/_types.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/wchar.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stddef.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_edger8r.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_defs.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_error.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_eid.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_trts.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_utils.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_attributes.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_key.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_report.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tkey_exchange.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_key_exchange.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_quote.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_ecp_types.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tcrypto.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdlib.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tae_service.h:
+
+../config.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_lfence.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/errno.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/mbusafecrt.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/string.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdarg.h:

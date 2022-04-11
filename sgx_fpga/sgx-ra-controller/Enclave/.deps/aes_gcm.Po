@@ -1,0 +1,29 @@
+aes_gcm.o: aes_gcm.cpp aes_gcm.h /opt/intel/sgxsdk/include/tlibc/stdlib.h \
+ /opt/intel/sgxsdk/include/tlibc/sys/cdefs.h \
+ /opt/intel/sgxsdk/include/tlibc/sys/_types.h \
+ /opt/intel/sgxsdk/include/tlibc/string.h \
+ /opt/intel/sgxsdk/include/tlibc/math.h \
+ /opt/intel/sgxsdk/include/tlibc/sys/limits.h \
+ /opt/intel/sgxsdk/include/tlibc/float.h \
+ /opt/intel/sgxsdk/include/tlibc/stdint.h \
+ /opt/intel/sgxsdk/include/tlibc/sys/stdint.h
+
+aes_gcm.h:
+
+/opt/intel/sgxsdk/include/tlibc/stdlib.h:
+
+/opt/intel/sgxsdk/include/tlibc/sys/cdefs.h:
+
+/opt/intel/sgxsdk/include/tlibc/sys/_types.h:
+
+/opt/intel/sgxsdk/include/tlibc/string.h:
+
+/opt/intel/sgxsdk/include/tlibc/math.h:
+
+/opt/intel/sgxsdk/include/tlibc/sys/limits.h:
+
+/opt/intel/sgxsdk/include/tlibc/float.h:
+
+/opt/intel/sgxsdk/include/tlibc/stdint.h:
+
+/opt/intel/sgxsdk/include/tlibc/sys/stdint.h:

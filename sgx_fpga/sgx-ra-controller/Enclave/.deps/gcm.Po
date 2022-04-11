@@ -1,0 +1,28 @@
+gcm.o: gcm.cpp \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdint.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/stdint.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/cdefs.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/_types.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdlib.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdio.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdarg.h \
+ /home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/string.h \
+ gcm.h
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdint.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/stdint.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/cdefs.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/_types.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdlib.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdio.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdarg.h:
+
+/home/kora/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/string.h:
+
+gcm.h:
