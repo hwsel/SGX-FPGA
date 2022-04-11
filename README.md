@@ -28,7 +28,7 @@ Currently this project only supports ADM-PCIE-7V3 card. Migrating to more type o
    $ yum install libcurl-devel
    ```
 
-4. Install OpenSSL 1.1.0i. Make sure the installation directory is correct.
+4. (Optinal) This project only supports OpenSSL 1.1.0 or higher version, and the default version is 1.1.0i. If you want to use OpenSSL with different version, please modify build.sh or manually build this project. To download OpenSSL 1.1.0i:
 
    ```
      $ wget https://www.openssl.org/source/openssl-1.1.0i.tar.gz
@@ -41,7 +41,7 @@ Currently this project only supports ADM-PCIE-7V3 card. Migrating to more type o
 
 5. Install [Xilinx SDAccel](https://www.xilinx.com/products/design-tools/legacy-tools/sdaccel.html) 2017.4 or 2018.2.
 
-6. Install the AMD-PCIE-7V3 card to the host machine, following this [guide](https://support.alpha-data.com/pub/sdaccel/platform/adm-pcie-7v3/ad-an-0071_v1_0.pdf).
+6. Install the AMD-PCIE-7V3 card to the host machine, following this [guide](https://support.alpha-data.com/pub/sdaccel/platform/adm-pcie-7v3/ad-an-0071_v1_0.pdf). To run the FPGA kernel, please source the environment first.
 
 ## Build the Project
 
@@ -55,7 +55,7 @@ $ ./build.sh
 
 Manually build:
 
-1. Build the user application, controller, and the attestation server.
+1. Build the user application, controller, and the attestation server. 
 
    ```
    $ cd sgx_fpga/sgx-fpga-client
