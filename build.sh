@@ -17,4 +17,4 @@ cd ../sgx-fpga-server
 make
 #build secure monitor
 cd ../../sgx_fpga_FPGA/secure_monitor
-make all TARGET=hw #build in hardware mode
+make all TARGET=hw #build in hardware mode, coptional: hw_emu and sw_emu
